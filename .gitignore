@@ -1,0 +1,36 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+*.DotSettings.user
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# NuGet
+*.nupkg
+.nuget/
+packages/
+
+# Test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# ASP.NET SESSION
+*.sqlite
+
+# OS
+.DS_Store
+Thumbs.db
