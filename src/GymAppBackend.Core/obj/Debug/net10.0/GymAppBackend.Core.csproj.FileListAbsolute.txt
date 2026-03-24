@@ -1,0 +1,13 @@
+C:\Projects\GymAppBackend\src\GymAppBackend.Core\bin\Debug\net10.0\GymAppBackend.Core.deps.json
+C:\Projects\GymAppBackend\src\GymAppBackend.Core\bin\Debug\net10.0\GymAppBackend.Core.dll
+C:\Projects\GymAppBackend\src\GymAppBackend.Core\bin\Debug\net10.0\GymAppBackend.Core.pdb
+C:\Projects\GymAppBackend\src\GymAppBackend.Core\obj\Debug\net10.0\GymAppBackend.Core.csproj.AssemblyReference.cache
+C:\Projects\GymAppBackend\src\GymAppBackend.Core\obj\Debug\net10.0\GymAppBackend.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\GymAppBackend\src\GymAppBackend.Core\obj\Debug\net10.0\GymAppBackend.Core.AssemblyInfoInputs.cache
+C:\Projects\GymAppBackend\src\GymAppBackend.Core\obj\Debug\net10.0\GymAppBackend.Core.AssemblyInfo.cs
+C:\Projects\GymAppBackend\src\GymAppBackend.Core\obj\Debug\net10.0\GymAppBackend.Core.csproj.CoreCompileInputs.cache
+C:\Projects\GymAppBackend\src\GymAppBackend.Core\obj\Debug\net10.0\GymAppBackend.Core.dll
+C:\Projects\GymAppBackend\src\GymAppBackend.Core\obj\Debug\net10.0\refint\GymAppBackend.Core.dll
+C:\Projects\GymAppBackend\src\GymAppBackend.Core\obj\Debug\net10.0\GymAppBackend.Core.pdb
+C:\Projects\GymAppBackend\src\GymAppBackend.Core\obj\Debug\net10.0\ref\GymAppBackend.Core.dll
+C:\Projects\GymAppBackend\src\GymAppBackend.Core\obj\Debug\net10.0\GymAppBackend.Core.sourcelink.json
