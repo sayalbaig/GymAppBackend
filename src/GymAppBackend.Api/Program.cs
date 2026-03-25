@@ -2,6 +2,7 @@ using System.Text;
 using GymAppBackend.Api.Services;
 using GymAppBackend.Infrastructure;
 using GymAppBackend.Infrastructure.Data;
+using GymAppBackend.Infrastructure.OpenApi;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -9,13 +10,11 @@ using Microsoft.IdentityModel.Tokens;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
 
 builder.Services.AddDbContext<GymDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddOpenApi();
-builder.Services.AddSwaggerGen();
+builder.Services.AddOpenApiDocumentation(builder.Configuration);
 builder.Services.AddInfrastructure();
 
 builder.Services.AddScoped<IJwtService, JwtService>();
@@ -41,12 +40,7 @@ builder.Services.AddAuthorization();
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
-    app.MapOpenApi();
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+app.UseOpenApiDocumentation(builder.Configuration);
 
 app.UseAuthentication();
 app.UseAuthorization();
